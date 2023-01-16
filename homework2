@@ -1,0 +1,7 @@
+# Задача 2
+# https://www.codewars.com/kata/51f9d93b4095e0a7200001b8/train/python
+def add_length(str_):
+    words = str_.split()
+    for i in range(len(words)):
+        words[i] = f'{words[i]} {len(words[i])}'
+    return words
