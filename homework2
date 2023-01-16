@@ -5,3 +5,5 @@ def add_length(str_):
     for i in range(len(words)):
         words[i] = f'{words[i]} {len(words[i])}'
     return words
+
+# Ссылки перепутаны
