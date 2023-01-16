@@ -1,0 +1,6 @@
+# Задача 1
+# https://www.codewars.com/kata/559d2284b5bb6799e9000047/train/python
+def how_many_light_sabers_do_you_own(name='Not Zach'):
+    if name == 'Zach':
+         return 18
+    return 0
